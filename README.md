@@ -4,6 +4,7 @@
     <img alt="nf-core/funomic" src="docs/images/nf-core-funomic_logo_light.png">
   </picture>
 </h1>
+
 ## Introduction
 
 A reproducible and scalable Nextflow implementation of the FunOMIC2 pipeline for fungal metagenomic analysis.
