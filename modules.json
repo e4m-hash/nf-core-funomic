@@ -1,0 +1,76 @@
+{
+    "name": "nf-core/funomic",
+    "homePage": "https://github.com/nf-core/funomic",
+    "repos": {
+        "https://github.com/nf-core/modules.git": {
+            "modules": {
+                "nf-core": {
+                    "bowtie2/align": {
+                        "branch": "master",
+                        "git_sha": "2221f422f008714c13816bc5c3346d7346a56ed0",
+                        "installed_by": ["modules"]
+                    },
+                    "diamond/blastx": {
+                        "branch": "master",
+                        "git_sha": "8d52ac1b6f035f46c005a27b3510873c2a67ea41",
+                        "installed_by": ["modules"]
+                    },
+                    "fastqc": {
+                        "branch": "master",
+                        "git_sha": "79b36b51048048374b642289bfe9e591ef56fe05",
+                        "installed_by": ["modules"]
+                    },
+                    "multiqc": {
+                        "branch": "master",
+                        "git_sha": "79b36b51048048374b642289bfe9e591ef56fe05",
+                        "installed_by": ["modules"]
+                    },
+                    "samtools/fastq": {
+                        "branch": "master",
+                        "git_sha": "156feda0cb6589cd29c04902004fa3b53bc00205",
+                        "installed_by": ["modules"]
+                    },
+                    "samtools/idxstats": {
+                        "branch": "master",
+                        "git_sha": "156feda0cb6589cd29c04902004fa3b53bc00205",
+                        "installed_by": ["modules"]
+                    },
+                    "samtools/index": {
+                        "branch": "master",
+                        "git_sha": "156feda0cb6589cd29c04902004fa3b53bc00205",
+                        "installed_by": ["modules"]
+                    },
+                    "samtools/sort": {
+                        "branch": "master",
+                        "git_sha": "156feda0cb6589cd29c04902004fa3b53bc00205",
+                        "installed_by": ["modules"]
+                    },
+                    "samtools/view": {
+                        "branch": "master",
+                        "git_sha": "2057a0a8dbd67000d08613a556570aa7184a7c89",
+                        "installed_by": ["modules"]
+                    }
+                }
+            },
+            "subworkflows": {
+                "nf-core": {
+                    "utils_nextflow_pipeline": {
+                        "branch": "master",
+                        "git_sha": "05954dab2ff481bcb999f24455da29a5828af08d",
+                        "installed_by": ["subworkflows"]
+                    },
+                    "utils_nfcore_pipeline": {
+                        "branch": "master",
+                        "git_sha": "271e7fc14eb1320364416d996fb077421f3faed2",
+                        "installed_by": ["subworkflows"]
+                    },
+                    "utils_nfschema_plugin": {
+                        "branch": "master",
+                        "git_sha": "4b406a74dc0449c0401ed87d5bfff4252fd277fd",
+                        "installed_by": ["subworkflows"]
+                    }
+                }
+            }
+        }
+    }
+}

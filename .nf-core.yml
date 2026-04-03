@@ -1,0 +1,16 @@
+repository_type: pipeline
+
+nf_core_version: 3.5.1
+
+lint: {}
+
+template:
+  org: nf-core
+  name: funomic
+  description: Mycobiome taxonomic and functional profiling pipeline
+  author: Manichanh Lab / BDSL
+  version: 1.0.0dev
+  force: true
+  outdir: .
+  skip_features: []
+  is_nfcore: true
